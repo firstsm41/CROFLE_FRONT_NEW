@@ -56,3 +56,8 @@ node_modules/
 dist/
 npm-debug.log
 yarn-error.log
+
+# Local environment; commit only the setup template
+.env
+.env.*
+!.env.example
